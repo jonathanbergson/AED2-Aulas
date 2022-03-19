@@ -39,6 +39,40 @@ namespace AED2_ListaDuplamenteEncadeada
             sentinel.Previous = node;
         }
 
+        public void Add(int elem, int position = 1)
+        {
+            bool shouldPush = false;
+
+            if (position == 0)
+            {
+                Prepend(elem);
+            }
+
+            int index = 1;
+            Node current = sentinel.Next;
+            while(index < position)
+            {
+                index++;
+                current = current.Next;
+
+                if (current == sentinel)
+                {
+                    shouldPush = true;
+                    break;
+                }
+            }
+
+            if (shouldPush)
+            {
+                Push(elem);
+            } else
+            {
+                Node node = new Node(elem, current.Previous, current);
+                current.Previous.Next = node;
+                current.Previous = node;
+            }
+        }
+
         public int Shift()
         {
             Node firstNode = sentinel.Next;

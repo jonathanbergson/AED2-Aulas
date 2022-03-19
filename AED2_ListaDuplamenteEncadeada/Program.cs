@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace AED2_ListaDuplamenteEncadeada
+﻿namespace AED2_ListaDuplamenteEncadeada
 {
     class Program
     {
@@ -15,6 +13,11 @@ namespace AED2_ListaDuplamenteEncadeada
             list.Show();
 
             list.Shift();
+            list.Show();
+
+            list.Add(85, 2);
+            list.Show();
+            list.Add(33, 22);
             list.Show();
 
             //list.Pop();
