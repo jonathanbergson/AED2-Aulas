@@ -39,14 +39,34 @@ namespace AED2_ListaDuplamenteEncadeada
             sentinel.Previous = node;
         }
 
-        public void Shift()
+        public int Shift()
         {
+            Node firstNode = sentinel.Next;
 
+            if (firstNode == sentinel)
+            {
+                throw new Exception("[Exception] A lista está vazia!");
+            }
+
+            sentinel.Next = firstNode.Next;
+            firstNode.Next.Previous = sentinel;
+
+            return firstNode.Elem;
         }
 
-        public void Pop()
+        public int Pop()
         {
+            Node lastNode = sentinel.Previous;
 
+            if (lastNode == sentinel)
+            {
+                throw new Exception("[Exception] A lista está vazia!");
+            }
+
+            sentinel.Previous = lastNode.Previous;
+            sentinel.Previous.Next = sentinel;
+
+            return lastNode.Elem;
         }
     }
 }

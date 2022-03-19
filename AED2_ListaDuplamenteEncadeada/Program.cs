@@ -8,14 +8,18 @@ namespace AED2_ListaDuplamenteEncadeada
         {
             List list = new List();
 
-            list.Prepend(3);
-            list.Prepend(5);
-            list.Prepend(7);
-            list.Prepend(9);
+            list.Push(3);
+            list.Push(5);
+            list.Push(7);
+            list.Push(9);
             list.Show();
 
-            list.Push(12);
+            list.Shift();
             list.Show();
+
+            //list.Pop();
+            //list.Push(5);
+            //list.Show();
         }
     }
 }
