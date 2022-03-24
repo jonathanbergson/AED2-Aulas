@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace AED2_ListaEstatica
+namespace AED2_01_ListaEstatica
 {
     class Program
     {

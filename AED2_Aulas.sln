@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32228.343
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AED2_ListaDuplamenteEncadeada", "AED2_ListaDuplamenteEncadeada\AED2_ListaDuplamenteEncadeada.csproj", "{2C3F1CDA-B841-4D4E-A250-93DB6365748D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AED2_03_ListaDuplamenteEncadeada", "AED2_03_ListaDuplamenteEncadeada\AED2_03_ListaDuplamenteEncadeada.csproj", "{2C3F1CDA-B841-4D4E-A250-93DB6365748D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AED2_04_Fila", "AED2_04_Fila\AED2_04_Fila.csproj", "{21C9DF05-56E1-4898-9F06-2E206E91B583}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AED2_02_ListaEncadeada", "AED2_02_ListaEncadeada\AED2_02_ListaEncadeada.csproj", "{4AA4FC24-49B0-498A-BD45-59689052448F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AED2_01_ListaEstatica", "AED2_01_ListaEstatica\AED2_01_ListaEstatica.csproj", "{C0FD9E75-20F1-4B8E-AD49-386E126EFE2C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{2C3F1CDA-B841-4D4E-A250-93DB6365748D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C3F1CDA-B841-4D4E-A250-93DB6365748D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C3F1CDA-B841-4D4E-A250-93DB6365748D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21C9DF05-56E1-4898-9F06-2E206E91B583}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21C9DF05-56E1-4898-9F06-2E206E91B583}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21C9DF05-56E1-4898-9F06-2E206E91B583}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21C9DF05-56E1-4898-9F06-2E206E91B583}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AA4FC24-49B0-498A-BD45-59689052448F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AA4FC24-49B0-498A-BD45-59689052448F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AA4FC24-49B0-498A-BD45-59689052448F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AA4FC24-49B0-498A-BD45-59689052448F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0FD9E75-20F1-4B8E-AD49-386E126EFE2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0FD9E75-20F1-4B8E-AD49-386E126EFE2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0FD9E75-20F1-4B8E-AD49-386E126EFE2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0FD9E75-20F1-4B8E-AD49-386E126EFE2C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

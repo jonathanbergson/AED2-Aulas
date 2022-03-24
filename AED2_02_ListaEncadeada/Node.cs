@@ -1,4 +1,4 @@
-﻿namespace AED2_ListaDinamica
+﻿namespace AED2_02_ListaEncadeada
 {
     public class Node
     {

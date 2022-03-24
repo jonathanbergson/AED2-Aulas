@@ -1,4 +1,4 @@
-﻿namespace AED2_ListaDuplamenteEncadeada
+﻿namespace AED2_03_ListaDuplamenteEncadeada
 {
     class Program
     {
