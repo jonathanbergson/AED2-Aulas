@@ -1,20 +1,25 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace AED2_04_Fila
+﻿namespace AED2_04_Fila
 {
     class Node
     {
-        string person;
-        Node next;
+        private string _name;
+        private Node _next;
 
         public Node(string name)
         {
-            person = name;
-            next = null;
+            _name = name;
+            _next = null;
+        }
+        
+        public string Name
+        {
+            get => _name;
+        }
+        
+        public Node Next
+        {
+            get { return _next; }
+            set { _next = value; }
         }
     }
 }
