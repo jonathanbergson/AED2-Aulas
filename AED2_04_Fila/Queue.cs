@@ -51,7 +51,7 @@ namespace AED2_04_Fila
             }
         }
 
-        public void Lock(int count = 1)
+        public void Look(int count = 1)
         {
             if (count == -1 || count > _count)
             {
@@ -71,7 +71,7 @@ namespace AED2_04_Fila
 
         public void Show()
         {
-            Lock(-1);
+            Look(-1);
         }
     }
 }

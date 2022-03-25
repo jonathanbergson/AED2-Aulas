@@ -20,7 +20,7 @@
 
             queue.Toqueue("Lara Cristina");
             queue.Toqueue("Mairon Gadran");
-            queue.Lock(4);
+            queue.Look(4);
         }
     }
 }
