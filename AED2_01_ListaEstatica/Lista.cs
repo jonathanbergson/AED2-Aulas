@@ -98,14 +98,12 @@ namespace AED2_01_ListaEstatica
         public int Pesquisar(int elemento)
         {
             int i;
-            bool achou = false;
             int posicao = -1;
 
             for (i = 0; i < this.quantidade; i++)
             {
                 if (this.elementos[i] == elemento)
                 {
-                    achou = true;
                     posicao = i;
                     break;
                 }
