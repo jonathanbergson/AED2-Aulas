@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AED2_02_ListaEncadeada", "A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AED2_01_ListaEstatica", "AED2_01_ListaEstatica\AED2_01_ListaEstatica.csproj", "{C0FD9E75-20F1-4B8E-AD49-386E126EFE2C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AED2_05_Pilha", "AED2_05_Pilha\AED2_05_Pilha.csproj", "{D8D83285-7573-446C-9AAF-8404BBAF42BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{C0FD9E75-20F1-4B8E-AD49-386E126EFE2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0FD9E75-20F1-4B8E-AD49-386E126EFE2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0FD9E75-20F1-4B8E-AD49-386E126EFE2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8D83285-7573-446C-9AAF-8404BBAF42BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8D83285-7573-446C-9AAF-8404BBAF42BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8D83285-7573-446C-9AAF-8404BBAF42BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8D83285-7573-446C-9AAF-8404BBAF42BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
