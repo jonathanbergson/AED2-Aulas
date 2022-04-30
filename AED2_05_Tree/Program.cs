@@ -16,11 +16,14 @@ namespace AED2_05_Tree
             tree.Add(72);
             tree.Add(42);
 
+            tree.Show();
             tree.Remove(15);
             tree.Show();
             tree.Remove(42);
             tree.Show();
             tree.Remove(8);
+            tree.Show();
+            tree.Remove(23);
             tree.Show();
         }
     }

@@ -95,7 +95,7 @@ namespace AED2_05_Tree
 
         public void Remove(int element)
         {
-            Remove(element, _root);
+            _root = Remove(element, _root);
         }
 
         private Branch Remove(int element, Branch branch)
@@ -105,6 +105,10 @@ namespace AED2_05_Tree
                 if (branch.Right == null)
                 {
                     branch = branch.Left;
+                }
+                else if (branch.Left == null)
+                {
+                    branch = branch.Right;
                 }
                 return branch;
             }
