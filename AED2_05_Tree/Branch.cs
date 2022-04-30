@@ -1,12 +1,12 @@
 ﻿namespace AED2_05_Tree
 {
-    class Node
+    class Branch
     {
         public int Element { get; }
-        public Node Left { get; }
-        public Node Right { get; }
+        public Branch Left { get; set; }
+        public Branch Right { get; set; }
 
-        public Node(int element, Node left, Node right)
+        public Branch(int element, Branch left, Branch right)
         {
             Element = element;
             Left = left;
