@@ -6,7 +6,7 @@ namespace AED2_AnaliseDeComplexidade
     {
         static void Main(string[] args)
         {
-            int[] elements = { 10, 55, 2, 1, 4, 6, 7, 8, 23 };
+            int[] elements = { 10, 55, 2, 4, 6, 7, 8, 23, 56 };
             int min = 0, max = 0;
             MinAndMax(elements, ref min, ref max);
 
@@ -26,20 +26,31 @@ namespace AED2_AnaliseDeComplexidade
             min = elements[0];
             max = elements[0];
 
+            int i = 0;
+            if (elements.Length % 2 == 1)
+            {
+                min = elements[0];
+                max = elements[0];
+                i = 1;
+            }
 
-            for (int i = 1; i < elements.Length; i += 2)
+            for (; i < elements.Length; i += 2)
             {
                 int red = elements[i - 1];
                 int blue = elements[i];
 
-                if (red < min)
+                if (elements[i] > elements[i + 1])
                 {
-                    min = red;
-                }
-                if (blue > max)
+                    red = elements[i];
+                    blue = elements[i + 1];
+                } else
                 {
-                    max = blue;
+                    red = elements[i + 1];
+                    blue = elements[i];
                 }
+
+                if (red > max) max = red;
+                if (blue < min) min = blue;
             }
         }
     }
