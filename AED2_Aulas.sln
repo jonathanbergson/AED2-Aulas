@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AED2_05_Pilha", "AED2_05_Pi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AED2_05_Tree", "AED2_05_Tree\AED2_05_Tree.csproj", "{E36640F7-4C70-4986-BB38-9D6DB2172F70}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AED2_AnaliseDeComplexidade", "AED2_AnaliseDeComplexidade\AED2_AnaliseDeComplexidade.csproj", "{82138DA1-943A-47E4-8A24-031598FB69C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AED2_AnaliseDeComplexidade", "AED2_AnaliseDeComplexidade\AED2_AnaliseDeComplexidade.csproj", "{82138DA1-943A-47E4-8A24-031598FB69C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AED2_07_AlgorimoDeOrdenacao", "AED2_07_AlgorimoDeOrdenacao\AED2_07_AlgorimoDeOrdenacao.csproj", "{5EC27D3A-B051-45B8-A970-C4D825E9267E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{82138DA1-943A-47E4-8A24-031598FB69C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82138DA1-943A-47E4-8A24-031598FB69C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82138DA1-943A-47E4-8A24-031598FB69C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EC27D3A-B051-45B8-A970-C4D825E9267E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EC27D3A-B051-45B8-A970-C4D825E9267E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EC27D3A-B051-45B8-A970-C4D825E9267E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EC27D3A-B051-45B8-A970-C4D825E9267E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
