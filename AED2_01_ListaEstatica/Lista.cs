@@ -2,7 +2,7 @@
 
 namespace AED2_01_ListaEstatica
 {
-    public class Lista
+    public class  Lista
     {
         int[] elementos;
         private int quantidade;
@@ -19,19 +19,18 @@ namespace AED2_01_ListaEstatica
             {
                 throw new Exception("Posição inválida!");
             }
-            else if (quantidade == elementos.Length)
+
+            if (quantidade == elementos.Length)
             {
                 throw new Exception("Lista lotada!");
             }
-            else
+
+            for (int i = quantidade - 1; i >= posicao; i--)
             {
-                for (int i = quantidade - 1; i >= posicao; i--)
-                {
-                    elementos[i + 1] = elementos[i];
-                }
-                elementos[posicao] = elemento;
-                quantidade++;
+                elementos[i + 1] = elementos[i];
             }
+            elementos[posicao] = elemento;
+            quantidade++;
         }
 
         public void InsereInicio(int elemento)
