@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace AED2_07_AlgorimoDeOrdenacao
+namespace AED2_08_AlgorimoDeOrdenacao
 {
     class Program
     {

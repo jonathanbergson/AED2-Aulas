@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace AED2_AnaliseDeComplexidade
+namespace AED2_07_AnaliseDeComplexidade
 {
     class Program
     {

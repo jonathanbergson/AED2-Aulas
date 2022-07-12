@@ -1,4 +1,4 @@
-﻿namespace AED2_05_Tree
+﻿namespace AED2_06_Tree
 {
     class Branch
     {

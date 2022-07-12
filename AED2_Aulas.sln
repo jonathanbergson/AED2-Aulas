@@ -13,11 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AED2_01_ListaEstatica", "AE
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AED2_05_Pilha", "AED2_05_Pilha\AED2_05_Pilha.csproj", "{D8D83285-7573-446C-9AAF-8404BBAF42BC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AED2_05_Tree", "AED2_05_Tree\AED2_05_Tree.csproj", "{E36640F7-4C70-4986-BB38-9D6DB2172F70}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AED2_06_Tree", "AED2_06_Tree\AED2_06_Tree.csproj", "{E36640F7-4C70-4986-BB38-9D6DB2172F70}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AED2_AnaliseDeComplexidade", "AED2_AnaliseDeComplexidade\AED2_AnaliseDeComplexidade.csproj", "{82138DA1-943A-47E4-8A24-031598FB69C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AED2_07_AnaliseDeComplexidade", "AED2_07_AnaliseDeComplexidade\AED2_07_AnaliseDeComplexidade.csproj", "{82138DA1-943A-47E4-8A24-031598FB69C3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AED2_07_AlgorimoDeOrdenacao", "AED2_07_AlgorimoDeOrdenacao\AED2_07_AlgorimoDeOrdenacao.csproj", "{5EC27D3A-B051-45B8-A970-C4D825E9267E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AED2_08_AlgorimoDeOrdenacao", "AED2_08_AlgorimoDeOrdenacao\AED2_08_AlgorimoDeOrdenacao.csproj", "{5EC27D3A-B051-45B8-A970-C4D825E9267E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AED2_10_SelectionSort", "AED2_10_SelectionSort\AED2_10_SelectionSort.csproj", "{ADA9228B-193E-4E31-88B1-E808936CC8E0}"
 EndProject
